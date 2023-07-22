@@ -8,12 +8,14 @@ edition = "2021"
 name = "sample"
 crate-type = ["cdylib"]
 
+
 [dependencies]
 rand = "0.8.5"
 jni = "0.21.1"
 num-traits = "0.2"
 num-derive = "0.4"
 num = "0.4"
+rcommand = { git = "https://github.com/StemAcademyKids-Minecraft/rcommand.git", branch = "master"}
 
 [dependencies.uuid]
 version = "1.4.0"
